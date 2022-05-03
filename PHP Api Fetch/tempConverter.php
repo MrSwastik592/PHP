@@ -46,7 +46,7 @@
             <?php
             if (isset($_POST['weatherSubmit'])) {
                $city = $_POST['city'];
-               $apikey = 'ab0e1fc82243acca981b99c6898fd181';
+               $apikey = 'YOUR_API_KEY';
                if ($city == "") {
                   echo "<h2>Please enter a city name</h2>";
                } else {
