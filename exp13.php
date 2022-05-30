@@ -47,7 +47,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
    ?>
    <div class="container">
-
       <form action="exp13.php" method="POST">
          <center>
             <strong>Set Cookie</strong>
@@ -65,10 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
          <center>
             <input type="button" value="Delete" name="delete" />
          </center>
-
       </form>
-
-
    </div>
 
 </body>
